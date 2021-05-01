@@ -1,0 +1,64 @@
+.nav{
+
+	background-color: grey;
+}
+ul{
+	display: flex;
+	padding: 10px;
+	font-size:1.4em;
+	list-style: none;
+}
+
+li{
+	padding: 10px;
+}
+
+.cover{
+	display: flex;
+	background-color: red;
+    height: 50vh;
+
+}
+.Thingies{
+	text-align: center;
+}
+.a{
+	background-color: black;
+	height: 300px;
+	width: 300px;
+}
+.b{
+	background-color: grey;
+	height: 300px;
+	width: 300px;
+}
+.c{
+	background-color: green;
+	height: 300px;
+	width: 300px;
+}
+.d{
+	background-color: blue;
+	height: 300px;
+	width: 300px;
+}
+.Work{
+display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.box{
+
+	/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr 1fr;*/
+	/*height: 300px;
+	width: 300px;*/
+/*	background-color: black;*/
+}
+.push{
+	margin-left: auto;
+} 
+.footer{
+	background-color: yellow;
+	text-align: center;
+}
